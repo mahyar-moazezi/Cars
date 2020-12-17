@@ -1,0 +1,80 @@
+.Card {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  align-items: center;
+}
+.Image {
+  width: 100%;
+  border-radius: 40px;
+  margin-right: 40px;
+}
+.Form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: flex-start;
+  font-size: 24px !important;
+  margin: 0 20px;
+}
+.Form label {
+  font-size: 1rem;
+}
+.Form input,
+.Form select,
+.Form button {
+  border-radius: 20px;
+  margin: 10px 0;
+  background-color: var(--baseColor);
+  width: 300px;
+  padding: 8px 5px;
+}
+.Form button {
+  background-color: var(--text) !important;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+.Form button:disabled {
+  background-color: var(--baseColor) !important;
+}
+.Form input[type="text"],
+input[type="number"] {
+  font-size: 20px;
+}
+.Form select[name="option"] {
+  font-size: 20px;
+}
+@media (max-width: 1025px) {
+  .Form input,
+  .Form select,
+  .Form button {
+    border-radius: 20px;
+    margin: 10px 0;
+    background-color: var(--baseColor);
+    width: 200px;
+    padding: 8px 5px;
+  }
+}
+@media (max-width: 768px) {
+  .Card {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+@media (max-width: 426px) {
+  .Image {
+    border-radius: 10px;
+  }
+  .Font {
+    font-size: 10px !important;
+  }
+}

@@ -1,0 +1,29 @@
+.Signup {
+  max-width: 400px;
+  height: 500px;
+  background-color: var(--baseColor);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  font-family: "sahel";
+  border-radius: 60px;
+  border: 2px solid var(--text);
+}
+.Signup input {
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  border: none;
+}
+.Signup button {
+  background-color: var(--text);
+  color: var(--baseColor);
+  padding: 7px 30px;
+  border-radius: 30px;
+  font-size: 1.1em;
+  margin-top: 70px;
+  cursor: pointer;
+}

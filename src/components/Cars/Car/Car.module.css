@@ -1,0 +1,10 @@
+.Car {
+  min-width: 28%;
+  padding: 10px 30px;
+  text-align: center;
+  margin: 10px 8px;
+  background-color: var(--baseColor);
+  color: var(--text);
+  border-radius: 20px;
+  cursor: pointer;
+}

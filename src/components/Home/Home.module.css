@@ -1,0 +1,42 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.Home > h1:nth-child(2) {
+  font-family: irannaskh !important;
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 20px;
+  color: var(--blue);
+  margin: 10px;
+  padding: 0;
+}
+
+p {
+  font-family: sahel !important;
+  width: 70%;
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+@media (max-width: 517px) {
+  h1 {
+    letter-spacing: 2px;
+  }
+  p {
+    width: 90%;
+    font-size: 1em;
+  }
+}
+.Error {
+  color: var(--toolbar) !important;
+  font-family: "sahel" !important;
+  font-style: normal !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}

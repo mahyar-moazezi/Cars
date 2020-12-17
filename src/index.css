@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "irannaskh";
+  src: url("./assets/Fonts/IranNastaliq.ttf");
+}
+@font-face {
+  font-family: "sahel";
+  src: url("./assets/Fonts/Sahel.ttf");
+}
+:root {
+  --baseColor: #cecece;
+  --toolbar: #0c0141;
+  --body: #fafafa;
+  --text: #700000;
+  --background: #bbb2b5;
+}
+body {
+  margin: 0;
+  font-family: sahel, irannaskh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: var(--baseColor);
+
+  color: var(--text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+/* scrollbar CSS */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(2, 0, 102);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

@@ -1,0 +1,8 @@
+.App {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--body);
+  border-radius: 40px;
+  
+}
